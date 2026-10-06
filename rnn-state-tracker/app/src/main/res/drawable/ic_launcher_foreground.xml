@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Recurrent Loop Arc above RNN node -->
+    <path
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 40,43 C 28,26 48,22 52,35" />
+    <!-- Loop arrowhead -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,39 L 46,34 L 54,30 Z" />
+
+    <!-- Input pulse from left -->
+    <path
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 23,54 L 32,54" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 34,54 L 28,50 L 28,58 Z" />
+
+    <!-- Connecting transition rays to DFA states -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 46,51 L 64,39" />
+    <path
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 50,54 L 62,54" />
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 46,57 L 64,69" />
+
+    <!-- Main RNN Hidden State Node (Bold Teal & White) -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M 42,54 m -12,0 a 12,12 0 1,0 24,0 a 12,12 0 1,0 -24,0" />
+    <path
+        android:fillColor="#101827"
+        android:pathData="M 42,54 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 42,54 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+
+    <!-- DFA State Top (A) -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M 70,38 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#101827"
+        android:pathData="M 70,38 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+
+    <!-- DFA State Mid (B) - Highlighted Active -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M 70,54 m -9,0 a 9,9 0 1,0 18,0 a 9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 70,54 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0" />
+
+    <!-- DFA State Bottom (C) -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M 70,70 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#101827"
+        android:pathData="M 70,70 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+</vector>

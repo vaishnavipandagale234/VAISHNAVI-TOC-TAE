@@ -1,0 +1,6 @@
+{
+  "name": "RNN State Tracker",
+  "description": "Map continuous RNN hidden-state transitions to discrete DFA state intervals with real-time mathematical simulation and interactive visualization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
